@@ -1,0 +1,209 @@
+// Libraries import
+@import "font-awesome-sprockets";
+@import "bootstrap-sprockets";
+@import "font-awesome";
+@import "bootstrap";
+
+// General Style Variables
+@import "config/variables";
+@import "config/bootstrap_variables";
+
+// Our CSS
+@import "layout/*";
+@import "components/*";
+@import "pages/*";
+@import "vendor/*";
+
+// General Style Variables
+@import "config/variables";
+@import "config/bootstrap_variables";
+
+// External Frameworks
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Our CSS
+@import "layout/*";
+@import "components/*";
+@import "pages/*";
+@import "vendor/*";
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("../images/ouverture.jpeg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("../images/wordcloud.jpg");
+  min-height: 50%;
+}
+
+.bgimg-3 {
+  background-image: url("../images/bcg_slide-1.jpg");
+  min-height: 400px;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/slide3.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 0px;
+   grid-row-gap: 50px;
+}
+
+.navlinks div {
+      position: relative;
+    }
+    .navlinks div::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 2;
+      display: block;
+      content: '';
+      width: 0;
+      height: 0;
+      background: rgba(255,255,255,.2);
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      opacity: 0;
+    }
+    .navlinks div:hover::before {
+      -webkit-animation: circle .75s;
+      animation: circle .75s;
+    }
+    @-webkit-keyframes circle {
+      0% {
+        opacity: 1;
+      }
+      40% {
+        opacity: 1;
+      }
+      100% {
+        width: 120%;
+        height: 120%;
+        opacity: 0;
+      }
+    }
+    @keyframes circle {
+      0% {
+        opacity: 1;
+      }
+      40% {
+        opacity: 1;
+      }
+      100% {
+        width: 120%;
+        height: 120%;
+        opacity: 0;
+      }
+    }
+
+
+
+
+a:hover, a:focus {
+  color: #2a6496;
+  text-decoration: none;
+}
+.square-service-block{
+  position:relative;
+  overflow:hidden;
+  margin:15px auto;
+  height: 250px;
+  }
+.square-service-block a {
+  border-radius: 5px;
+  display: block;
+  padding: 60px 20px;
+  text-align: center;
+  width: 100%;
+}
+.square-service-block a:hover{
+  background-color: rgba(231, 76, 60, 0.8);
+  border-radius: 5px;
+  height: 250px;
+}
+
+.ssb-icon {
+  color: #fff;
+  display: inline-block;
+  font-size: 28px;
+  margin: 0 0 20px;
+}
+
+h2.ssb-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 200;
+  margin:0;
+  padding:0;
+  text-transform: uppercase;
+}
+
+
+
+
+
