@@ -17431,7 +17431,8 @@ body, html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777; }
+  color: black;
+  background-color: white; }
 
 /* video*/
 #myVideo {
@@ -17469,6 +17470,30 @@ body, html {
   background: #ddd;
   color: black; }
 
+.red {
+  color: #EE5F5B; }
+
+.blue {
+  color: #A6D7F9; }
+
+.yellow {
+  color: #FDB631; }
+
+.orange {
+  color: #F9D6A6; }
+
+.green {
+  color: #A6D5A6; }
+
+.purple {
+  color: #6452BD; }
+
+.pink {
+  color: #D6AEC1; }
+
+.gris {
+  color: #A0AEB1; }
+
 .slide1 {
   background-image: url("../images/night1.jpg");
   min-height: 100%;
@@ -17481,7 +17506,7 @@ body, html {
   padding-top: 10px;
   color: white; }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -17498,16 +17523,91 @@ body, html {
   min-height: 100%; }
 
 .bgimg-3 {
-  background-image: url("../images/bcg_slide-1.jpg");
+  background-image: url("../images/thecamp1.jpg");
   min-height: 400px; }
 
 .bgimg-4 {
   background-image: url("../images/night2.jpg");
-  min-height: 400px; }
+  min-height: 100%; }
+
+.bgimg-5 {
+  background-image: url("../images/mont.jpg");
+  min-height: 100%;
+  opacity: 1; }
 
 .bg {
   /* The image used */
   background-image: url("../images/slide3.png");
+  /* Full height */
+  height: 80%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bg1 {
+  /* The image used */
+  background-image: url("../images/slide5.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bg2 {
+  /* The image used */
+  background-image: url("../images/slide6.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bg3 {
+  /* The image used */
+  background-image: url("../images/slide7.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bg4 {
+  /* The image used */
+  background-image: url("../images/slide8.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bg5 {
+  /* The image used */
+  background-image: url("../images/slide9.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bg6 {
+  /* The image used */
+  background-image: url("../images/slide10.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bg7 {
+  /* The image used */
+  background-image: url("../images/slide11.png");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
