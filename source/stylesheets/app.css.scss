@@ -142,9 +142,9 @@ $gris: #A0AEB1;
 }
 
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10, .bgimg-11, .bgimg-12, .bgimg-13, .bgimg-14, .bgimg-15, .bgimg-16, .bgimg-17 {
   position: relative;
-  opacity: 0.65;
+  opacity: 1;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -152,31 +152,91 @@ $gris: #A0AEB1;
 
 }
 .bgimg-1 {
-  background-image: url("../images/ouverture.jpeg");
-  min-height: 100%;
+  background-image: url("../images/mont.jpg");
+ min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("../images/word.jpg");
-  min-height: 100%;
+  background-image: url("../images/slide1.png");
+   min-height: 100%;
 }
 
 .bgimg-3 {
-  background-image: url("../images/thecamp1.jpg");
-  min-height: 400px;
+  background-image: url("../images/slide2.png");
+   min-height: 100%;
 }
 
 .bgimg-4 {
-  background-image: url("../images/night2.jpg");
+  background-image: url("../images/slide3.png");
   min-height: 100%;
 }
 
 .bgimg-5 {
-  background-image: url("../images/mont.jpg");
+  background-image: url("../images/slide4.png");
+  min-height: 100%;
+}
+
+.bgimg-6 {
+  background-image: url("../images/slide5.png");
   min-height: 100%;
   opacity: 1;
-
 }
+.bgimg-7 {
+  background-image: url("../images/slide6.png");
+  min-height: 100%;
+  opacity: 1;
+}
+.bgimg-8 {
+  background-image: url("../images/slide7.png");
+  min-height: 100%;
+  opacity: 1;
+}
+.bgimg-9 {
+  background-image: url("../images/slide8.png");
+  min-height: 100%;
+  opacity: 1;
+}
+.bgimg-10 {
+  background-image: url("../images/slide9.png");
+  min-height: 100%;
+  opacity: 1;
+}
+.bgimg-11 {
+  background-image: url("../images/slide10.png");
+  min-height: 100%;
+  opacity: 1;
+}
+.bgimg-12 {
+  background-image: url("../images/slide11.png");
+  min-height: 100%;
+  opacity: 1;
+}
+.bgimg-13 {
+  background-image: url("../images/slide12.png");
+  min-height: 100%;
+  opacity: 1;
+}
+.bgimg-14 {
+  background-image: url("../images/slide13.png");
+  min-height: 100%;
+  opacity: 1;
+}
+.bgimg-15 {
+  background-image: url("../images/slide14.png");
+  min-height: 100%;
+  opacity: 1;
+}
+.bgimg-16 {
+  background-image: url("../images/slide15.png");
+  min-height: 100%;
+  opacity: 1;
+}
+.bgimg-17 {
+  background-image: url("../images/slide16.png");
+  min-height: 100%;
+  opacity: 1;
+}
+
 
 .bg {
     /* The image used */
